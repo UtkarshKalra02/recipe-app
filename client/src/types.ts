@@ -3,10 +3,10 @@ export interface Recipe {
     title: string;
     image: string;
     imageType: string;
-}
-
-export interface RecipeSummary{
+  }
+  
+  export interface RecipeSummary {
     id: number;
     title: string;
     summary: string;
-}
+  }
