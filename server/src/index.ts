@@ -52,7 +52,7 @@ app.get("/api/recipes/:recipeId/summary", async(req,res) => {
     return res.json(results);
 })
 
-app.delete('/api/recipes/favourites', async(req, res) => {
+app.delete('/api/recipes/favourite', async(req, res) => {
     const recipeId = req.body.recipeId;
     try{
         await prismaClient.favouriteRecipes.deleteMany({

@@ -21,7 +21,6 @@ const RecipeCard = ({recipe, onClick, onFavouriteButtonClick, isFavourite}: Prop
           ) : (
           <AiOutlineHeart size={25}/>
         )}
-            <AiOutlineHeart size={25}/>
           </span>
             <h3>{recipe.title}</h3>
         </div>
